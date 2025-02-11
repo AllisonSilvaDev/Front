@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // let nota1 = Number(prompt("Digite a nota1: "))
+        // let nota2 = Number(prompt("Digite a nota2: "))
+        // let nota3 = Number(prompt("Digite a nota3: "))
+
+        // let media = (nota1 + nota2 + nota3) / 3
+
+        // document.write(media)
+
+        // if(media >= 8){
+        //     document.write("Voce foi aprovado!")
+        // } else {
+        //     document.write("Voce foi reprovado")
+        // }
+
+        // for (let index = 10; index != -1; index--) {
+        //     document.write(`${index} <br>`)
+        
+        // }
+        // let contador = 10
+
+        // while (contador >= 1) {
+        //     document.write(contador)
+        //     contador = contador - 1
+        // }
+
+        // let a = 1
+
+        // do {
+        //     if (a % 2 == 0){
+        //         document.write(`${a} - é par <br>`)
+        //     }
+        //     else{
+        //         document.write(`${a} - é impar <br>`)
+        //     }a++
+
+
+        // } while (a<20);
+        
+        let num1 = Number(prompt("Digite um num: "))
+        let num2 = Number(prompt("Digite um num: "))
+        let op = Number(prompt("1-Somar 2-Subtrair 3-Dividir 4-Multiplicar "))
+        let result = 0
+
+        switch (op) {
+            case 1:
+                result = num1 + num2
+                document.write(`Resultado: ${result}`)
+                break;
+            case 2:
+                result = num1 - num2
+                document.write(`Resultado: ${result}`)
+                break;
+            case 3:
+                result = num1 / num2
+                document.write(`Resultado: ${result}`)
+                break;
+            case 4:
+                result = num1 * num2
+                document.write(`Resultado: ${result}`)
+                break;
+        }
+    </script>
+</body>
+</html>
